@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Planet Info 🚀</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="rocket.png" type="image/icon type">
+    </head>
+    <body>
+        <header id="header">
+            <div><a href="#footer">Blanco</a></div>
+            <div><a href="#Home">Il sistema Solare</a></div>
+            <div><a href="#analisi">Analisi</a></div>
+        </header>
+        <div class="razzo" id="razzo">
+            <img src="rocket.png">
+            <img src="spark.gif" class="spark">
+        </div>
+        <div class="razzo" id="starwars">
+            <img src="laser.gif" class="laser">
+            <img src="starwars.png">
+            <img src="laser.gif" class="laser">
+        </div>
+        <section class="section1" id="Home">
+            <div class="button_container">
+                <button id="stopButton">Stop Rotation</button>
+                <button id="startButton">Start Rotation</button>
+            </div>
+            <div class="orbita">
+                <div class="pianeta" id="planetterra"></div>
+                <div class="pianetadue" id="planetdue"></div>
+                <div class="pianetatre" id="planettre"></div>
+                <div class="pianetaquattro" id="planetquattro"></div>
+                <div class="planetVenus" id="planetVenus"></div>
+                <div class="planetJupyter" id="planetJupyter"></div>
+                <div class="planetSaturn" id="planetSaturn"></div>
+                <div class="planetUranus" id="planetUranus"></div>
+                <div class="planetNeptun" id="planetNeptun"></div>
+                <div class="sole" id="sole"></div>
+            </div>
+        </section>
+        <section id="analisi" class="section2">
+            <div class="titlesection2">
+                <div>Planet Info</div>
+                <div class="lines" onclick="toggleMenu()">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <div id="dropdownMenu" class="dropdownMenu">
+                    <div><a href="#Earth">Earth</a></div>
+                    <div><a href="#Moon">Moon</a></div>
+                    <div><a href="#Mars">Mars</a></div>
+                    <div><a href="#Mercury">Mercury</a></div>
+                    <div><a href="#Venus">Venus</a></div>
+                    <div><a href="#Jupiter">Jupiter</a></div>
+                    <div><a href="#Saturn">Saturn</a></div>
+                    <div><a href="#Uranus">Uranus</a></div>
+                    <div><a href="#Neptun">Neptun</a></div>
+                    <div><a href="#Sun">Sun</a></div>
+                </div>
+            </div>
+            <br>
+            <div class="elencopianeti">
+                <p id="Earth">
+                    <div style="font-size: 30px;">Earth</div>
+                    <div class="pianeta1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Earth is the third planet from the Sun, distinguished by its abundant liquid water and life-supporting atmosphere. 
+                        Composed of a solid crust, mantle, and core, it has a unique magnetic field and supports diverse ecosystems due to
+                        its moderate climate and orbit. Earth's atmosphere, rich in nitrogen and oxygen, also shields it from solar radiation,
+                        sustaining life.
+                    </p>
+                </p>
+                <br>
+                <p id="Moon"> 
+                    <div style="font-size: 30px;">Moon</div>
+                    <div class="pianetadue1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        The Moon is Earth’s only natural satellite, orbiting at an average distance of 384,400 km. It has a rocky surface covered
+                        in craters from meteoroid impacts and lacks an atmosphere, resulting in extreme temperature shifts. Its gravitational pull 
+                        affects Earth’s tides, and its surface reflects sunlight, giving it a visible glow at night.
+                    </p>
+                </p>
+                <br>
+                <p id="Mars">
+                    <div style="font-size: 30px;">Mars</div>
+                    <div class="pianetatre1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Mars is the fourth planet from the Sun, known for its red appearance due to iron oxide (rust) on its surface. It has a thin atmosphere, primarily carbon dioxide, and features the largest volcano and canyon in the solar system. Mars has two moons, Phobos and Deimos, and scientists believe it may have hosted liquid water in its ancient past.
+                    </p>
+                </p>
+                <br>
+                <p id="Mercury">
+                    <div style="font-size: 30px;">Mercury</div>
+                    <div class="pianetaquattro1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Mercury is the closest planet to the Sun and has the shortest orbital period, completing one orbit in just 88 days. It has a rocky, heavily cratered surface with extreme temperature fluctuations due to its thin atmosphere. Mercury's lack of an atmosphere and its proximity to the Sun make it one of the hottest and most inhospitable planets in the solar system.
+                    </p>
+                </p>
+                <br>
+                <p id="Venus">
+                    <div style="font-size: 30px;">Venus</div>
+                    <div class="planetVenus1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Venus is the second planet from the Sun and has a thick, toxic atmosphere mainly composed of carbon dioxide, with clouds of sulfuric acid. It has extreme surface temperatures, averaging around 465°C, hotter than Mercury despite being farther from the Sun. Venus's surface is mostly volcanic plains, and its slow rotation makes a day longer than a year on the planet.
+                    </p>
+                </p>
+                <br>
+                <p id="Jupiter">
+                    <div style="font-size: 30px;">Jupiter</div>
+                    <div class="planetJupyter1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Jupiter is the largest planet in our solar system, known for its massive size and strong magnetic field. It is a gas giant with a composition mainly of hydrogen and helium, and it features a famous storm called the Great Red Spot. Jupiter has at least 79 moons, including Ganymede, the largest moon in the solar system.
+                    </p>
+                </p>
+                <br>
+                <p id="Saturn">
+                    <div style="font-size: 30px;">Saturn</div>
+                    <div class="planetSaturn1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Saturn is the sixth planet from the Sun and is famous for its prominent ring system made of ice and rock particles. It is a gas giant, primarily composed of hydrogen and helium, with a low density that allows it to float in water. Saturn has over 80 moons, with Titan being the largest.
+                    </p>
+                </p>
+                <br>
+                <p id="Uranus">
+                    <div style="font-size: 30px;">Uranus</div>
+                    <div class="planetUranus1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Uranus is the seventh planet from the Sun and is an ice giant with a blue-green color due to methane in its atmosphere. It has a unique tilt, rotating on its side at an angle of about 98 degrees. Uranus has 27 known moons and a faint ring system.
+                    </p>
+                </p>
+                <br>
+                <p id="Neptun">
+                    <div style="font-size: 30px;">Neptun</div>
+                    <div class="planetNeptun1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        Neptune is the eighth planet from the Sun and is a gas giant known for its striking blue color, caused by methane in its atmosphere. It has strong winds, the fastest in the solar system, and 14 known moons, with Triton being the largest.
+                    </p>
+                </p>
+                <br>
+                <p id="Uranus">
+                    <div style="font-size: 30px;">Sun</div>
+                    <div class="sole1"></div>
+                    <p style="font-size: 20px; line-height: 35px; text-align: justify;">
+                        The Sun is a star at the center of the Solar System, primarily composed of hydrogen and helium. It provides the energy necessary for life on Earth through nuclear fusion, generating light and heat. The Sun’s mass accounts for about 99.86% of the total mass of the Solar System.
+                    </p>
+                </p>
+            </div>
+        </section>
+        <footer id="footer">
+            <p>WebSite By Blanco</p>
+            <p>E-Mail: tommasogiorgio.bianco@gmail.com</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
